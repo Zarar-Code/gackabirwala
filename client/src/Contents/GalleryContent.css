@@ -1,0 +1,23 @@
+
+.gallery-cont img{
+    width: 25%;
+    margin: 15px 10px;
+    transition: 0.3s;
+}
+.gallery-cont img:hover{
+    scale: 1.1;
+}
+@media only screen and (max-width:625px){
+    .gallery-cont img{
+        width: 100%;
+    }
+}
+.gallery-cont{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  
+}
+.degree-btn{
+    font-size: 17px;
+}

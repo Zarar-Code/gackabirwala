@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Noto+Nastaliq+Urdu:wght@500&display=swap');
+.message-container{
+    border: 0.2px solid transparent;
+    /* margin-top: 65px; */
+    background-color: rgb(247, 247, 247);
+}
+.message-btn{
+    /* border: 2px solid rgb(26, 184, 12); */
+     margin-top: 65px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  
+}
+.message-inside-btn{
+    background: transparent;
+    border: none;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    transition: 0.3s;
+    font-weight: bold;
+    cursor: pointer;
+}
+.message-inside-btn:hover{
+  color: var(--dark-color);
+}
+.message-inside-btn::after{
+    content: "";
+    background: #e2e4e6;
+    width: 200px;
+    border-radius: 9px;
+    height: 3px;
+    transition: 0.3s;
+    margin-top: 10px;
+
+}
+.message-inside-btn:hover::after{
+    /* width: 100%; */
+   background-color: var(--dark-color);
+}
+.message-real-content{
+    padding: 37px 17px;
+    line-height: 159%;
+    display: flex;
+   
+}
+@media only screen and (max-width: 680px) {
+    .message-real-content{
+        flex-wrap: wrap;
+    }
+  }
+.message-real{
+    text-align: center;
+    width: 100%;
+}
+.active{
+    color: var(--dark-color);
+}
+.home-new{
+    background-color: rgb(247, 247, 247);
+}
+.urdu{
+    margin: 3px 8px;
+    line-height: 200%;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 34px;
+    font-family: 'Noto Nastaliq Urdu', serif;
+    color: #364d59;
+    box-shadow: 1px 2px 5px 2px #eaeaea;
+    padding: 40px;
+    animation: buble 1.2s infinite ease-in-out;
+}
+.urdu h5{
+    font-size: 23px;
+    margin-bottom: 22px;
+}
+.urdu p{
+    text-align: justify;
+    letter-spacing: normal;
+
+}
+.urdu:hover{
+    animation:none;
+}
+@keyframes buble {
+        0% {
+            transform: scale(1);
+        }
+        50%{
+            transform: scale(1.02);
+        }
+        100%{
+            transform: scale(1);
+        }
+}
+.read-more-button{
+    color: var(--bar-color);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.read-more-button:hover{
+    color: var(--pink-color);
+}
+.wish{
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.urdu h2{
+    font-size: 21px;
+    margin-bottom: 15px;
+    color: #364d59;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.imgClass{
+    height: 100px;
+}
+.imgClass1-cont{
+width: 45%;
+
+}
+
+@media only screen and (max-width: 680px){
+    .imgClass1-cont{
+        width: 80%;
+        }
+}
+.imgClass1-continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: normal;
+}

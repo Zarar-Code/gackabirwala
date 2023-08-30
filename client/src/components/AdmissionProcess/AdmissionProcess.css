@@ -1,0 +1,13 @@
+.admission_detail{
+    font-size: 17px;
+    margin-top: 17px;
+    margin-left: 37px;
+}
+.mid_pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admission_para{
+    font-weight: normal;
+}

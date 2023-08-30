@@ -1,0 +1,12 @@
+.enroll ul{
+    display: flex;
+    border: 1px solid red;
+    
+}
+.tablee{
+    margin-top: 20px;
+    margin-left: 38px;
+}
+.tablee h4{
+    margin-bottom: 10px;
+}

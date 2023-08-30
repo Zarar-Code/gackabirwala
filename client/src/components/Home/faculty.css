@@ -1,0 +1,29 @@
+.facont{
+    /* border: 2px solid red; */
+    padding: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.famain h1{
+    color: black;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+}
+.famain{
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.bar3{
+    width: 150px;
+    background-color: var(--bar-color);
+    height: 5px;
+}
+.home-degree{
+    background-color: rgb(247, 247, 247);
+}

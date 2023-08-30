@@ -1,0 +1,48 @@
+.criteria_timetable{
+    font-weight: 500;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 27px;
+    margin-bottom: 33px;
+    font-family: 'Noto Nastaliq Urdu', serif;
+    color: black;
+}
+/* @import '~font-awesome/css/font-awesome.min.css'; */
+
+.cont-time {
+    padding: 70px;
+
+}
+.cont-time h1{
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 0px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.time ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont-time p{
+    margin-top: 10px;
+}
+.time{
+    margin-left: 20px;
+}
+.time li{
+    margin-right: 40px;
+}
+.clock::after{
+    content: '\f017'; 
+  font-family: 'Font Awesome 5 Free'; 
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  color: var(--bar-color);
+  transform: translateX(70%);
+}

@@ -1,0 +1,90 @@
+.degreePro-btn{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.degree-btn{
+    border: none;
+    background: transparent;
+    padding: 5px;
+    margin: 0px 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.degree-btn:hover{
+    color: var(--bar-color);
+}
+.all-degree{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: center;
+    
+}
+.invi-degree{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 20%;
+}
+.degreePro-cont{
+margin-bottom: 50px;
+}
+.containere {
+    position: relative;
+    margin: 10px;
+    width: 240px;
+    height: 160px;
+  }
+  
+.containere img{
+        position: absolute;
+        width: 240px;
+        height: 160px;
+        left: 0;
+      
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 160px;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+  }
+  
+  .containere:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+  }
+  .title {
+    position: sticky;
+    width: 240px;
+    left: 0;
+    background-color: #bca34c;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+  }
+
+  
+  .button {
+    position: absolute;
+    width: 130px;
+    padding: 4px 0px;
+    left: 58px;
+    top: 110px;
+    text-align: center;
+    opacity: 0;
+    color: var(--bar-color);
+    border: solid 2px var(--bar-color);
+    transition: opacity .35s ease;
+  }
+  
+  .containere:hover .button {
+    opacity: 1;
+  }

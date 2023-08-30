@@ -1,0 +1,82 @@
+.navbar{
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  line-height: 25px;
+  top: 15px;
+}
+
+
+.nav-item {
+  display: inline-block;
+  position: relative;
+}
+
+.nav-item a{
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #bebdbd;
+  text-decoration: none;
+  font-family: 'Maven Pro';
+  display: flex;
+
+}
+.nav-item a:hover{
+  color:#ffffff
+}
+.dropdown-menu.show {
+  padding: 5px;
+  border-radius: 0;
+  z-index: 3;
+}
+.dropdown-menu li{
+  padding: 5px;
+}
+.dropdown-menu a{
+  font-weight: 500;
+  font-size: 13px;
+  font-family: system-ui;
+  color: black;
+}
+.dropdown-menu a:hover{
+ color: var(--dark-color);
+}
+.nav-item::after{
+  border-radius: 5px;
+    content: "";
+    background-color: var(--dark-color);
+    position: absolute;
+    width: 0;
+    height: 3px;
+    transition: 0.3s;
+}
+.nav-item:hover::after{
+  width: 100%;
+}
+.main_btn{
+
+  display: flex;
+  align-items: center;
+}
+.main_btn button{
+  padding: 7px;
+ border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #bebdbd;
+  border-radius: 2px;
+  font-weight: bold;
+  font-family: 'Maven Pro', sans-serif;
+  transition: 0.5s;
+
+}
+.main_btn button:hover{
+  background-color: var(--bar-color);
+  border-radius: 20px;
+  color: black;
+  
+}
+/* .navbar .active{
+  background-color: #faf8f8;
+} */

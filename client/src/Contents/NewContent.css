@@ -1,0 +1,39 @@
+.news-card{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: center;
+}
+.card{
+    margin: 23px 2.5em;
+    width: 296px;
+}
+@media only screen and  (min-width: 768px){
+.card img {
+    height: 100%; 
+}
+}
+.card-text{
+    display: flex;
+    justify-content: space-around;
+}
+.card-body hr{
+    margin: 0;
+}
+.card-body p{
+    margin-bottom: 0px;
+    padding: 4px;
+}
+@media only screen and  (max-width: 560px){
+    .news-card {
+        padding: 0px;
+    }
+    }
+    .news-loading-spinner{
+        display: flex;
+        justify-content: center;
+        align-items: center;;
+    }
+    .load{
+        margin: 100px 600px;
+    }

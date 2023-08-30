@@ -1,0 +1,11 @@
+.instit-content h1{
+    font-size: 1.2rem;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+.instit-content ol{
+    padding: 0;
+}
+.instit-content  li{
+    margin-bottom: 15px;
+}

@@ -1,0 +1,56 @@
+{
+  "name": "college",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@sanity/client": "^6.4.6",
+    "@sanity/image-url": "^1.0.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "date-fns": "^2.30.0",
+    "framer-motion": "^10.13.1",
+    "papaparse": "^5.4.1",
+    "react": "^18.2.0",
+    "react-card-slider-component": "^1.0.9",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-loading": "^2.0.3",
+    "react-multi-carousel": "^2.8.4",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-spinners": "^0.13.8",
+    "read-more-react": "^1.0.10",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.0.5",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

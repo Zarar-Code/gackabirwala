@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Noto+Nastaliq+Urdu:wght@500&display=swap');
+.criteria{
+    font-weight: 500;
+    text-align: right;
+    margin-right: 40px;
+    font-size: 27px;
+    margin-bottom: 33px;
+    font-family: 'Noto Nastaliq Urdu', serif;
+    color: black;
+}
+.time button{
+    padding: 7px;
+    background-color: transparent;
+    border: 1px solid var(--bar-color);
+    margin-top: 18px;
+    transition: 0.3s;
+}
+.time button:hover{
+   background-color: var(--bar-color);
+   color: white;
+}

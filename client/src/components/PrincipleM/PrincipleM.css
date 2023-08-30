@@ -1,0 +1,41 @@
+.principle_M_cont{
+    padding: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+}
+.pContent p{
+  text-align: left;
+  color: black;
+}
+.pContent h2{
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+}
+.pImage h5{
+    font-family: 'Josefin Sans';
+    margin-top: 15px;
+}
+.pContent h5{
+    font-family: 'Josefin Sans';
+   
+}
+.pContent {
+ width: 625px;
+ margin-right: 40px;
+ color: #364d59;
+}
+.pImage{
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+}
+.pImage:hover{
+    scale: 1.04;
+}
+

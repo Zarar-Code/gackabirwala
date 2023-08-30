@@ -1,0 +1,89 @@
+.main-cont{
+    padding: 70px;
+}
+.main-cont h2{
+    text-align: center;
+}
+.main-cont p{
+    text-align: center;
+}
+.contaner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 48px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.containere {
+    position: relative;
+    margin: 10px;
+    width: 240px;
+    height: 160px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 160px;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+  }
+  
+  .containere:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+  }
+  
+  .containere img {
+    position: absolute;
+    width: 240px;
+    height: 160px;
+    left: 0;
+  }
+  
+  .title {
+    position: sticky;
+    width: 240px;
+    left: 0;
+    background-color: #c4a228;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+  }
+  
+  /* .containere:hover .title {
+    top: 40px;
+  } */
+  
+  .button {
+    position: absolute;
+    width: 130px;
+    padding: 4px 0px;
+    left: 58px;
+    top: 110px;
+    text-align: center;
+    opacity: 0;
+    color: var(--bar-color);
+    border: solid 2px var(--bar-color);
+    transition: opacity .35s ease;
+  }
+  
+  /* .button {
+    
+    text-align: center;
+    color: white;
+    
+    z-index: 1;
+  } */
+  
+  .containere:hover .button {
+    opacity: 1;
+  }
+  

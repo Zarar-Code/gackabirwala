@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+.contanier{
+  height: 100vh;
+}
+.home-heading{
+  line-height: 55px;
+  /* color: var(--lightOrange); */
+}
+  header{
+
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../../../public/images/Main.jpeg");
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  @media only screen and (max-width: 675px) {
+   
+    section{
+      background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../../../public/images/Main.jpeg");
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+    h1{
+      font-size: 1.3rem;
+    }
+    .main_btn{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media only screen and (min-width: 1080px) {
+    header{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+ 
+  .contanier h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 2.1rem;
+    margin: 0rem 12rem;
+    font-weight: bold;
+    font-family: 'Maven Pro', sans-serif;
+  }
+  @media only screen and (max-width:625px) {
+    .contanier h1{
+      margin: 0rem 2rem;
+      line-height: 40px;
+    }  
+  }
+  spanhome{
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--dark-color);
+  }
+  section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+  }
+  
+
+  .bar{
+    background-color: var(--lightOrange);
+    width: 143px;
+    height: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .qoute{
+   margin: 30px 0px;
+  }
+.qoute h2{
+  font-size: 1.7rem;
+  margin-left: 10px;
+  text-align: center;
+  color: var(--lightOrange);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  /* a/nimation: typing 1.4s steps(23) infinite alternate-reverse; */
+}
+@keyframes typing {
+  from{
+    width: 6ch;
+  }
+  to{
+    width: 23ch;
+  }
+}
+
+.main_btn_text{
+  font-size: 17px;
+}
+.home_main_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home_main_btn button{
+  padding: 7px;
+  border: 1px solid var(--bar-color);
+  background-color: transparent;
+  color: white;
+  margin-top: 1rem;
+  border-radius: 5px;
+  font-family: 'Maven Pro', sans-serif;
+  transition: 0.5s;
+
+}
+.home_main_btn button:hover{
+  background-color: var(--bar-color);
+  color: black;
+  
+}
+/* ................................................................................................? */
+/* span8{
+  position: relative;
+  display: inline-block;
+  color: var(--dark-color);
+  height: 2rem;
+  vertical-align: bottom;
+  overflow: hidden;
+  font-weight: bold;
+  margin-left: 8px;
+}
+span4{
+  display: block;
+  animation: animateWords 5s infinite ease;
+}
+@keyframes animateWords {
+  0%{
+    transform: translateY(0%);
+  }
+  25%{
+    transform: translateY(-100%);
+  }
+  50%{
+    transform: translateY(-200%);
+  }
+  75%{
+    transform: translateY(-300%);
+  }
+  100%{
+    transform: translateY(-400%);
+  }
+} */

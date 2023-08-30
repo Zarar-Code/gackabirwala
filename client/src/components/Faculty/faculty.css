@@ -1,0 +1,33 @@
+.head-faculty{
+    padding: 30px;
+    margin-top: 10px;
+}
+.faculty-divs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ffirst{
+    margin:20px;
+    width: 170px;
+    flex-wrap: wrap;
+}
+.faculty_table{
+    margin: 50px;
+}
+.faculty_table th, td{
+    padding: 16px;
+    text-align: center;
+} 
+
+/* .faculty-div img{
+    height: 180px;
+} */
+.ffirst h5{ 
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.ffirst p{ 
+    margin: 0px;
+}

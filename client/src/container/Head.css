@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+.all{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../../public//images/Head.jpg");
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.all h1{
+    font-size: 70px;
+    font-size: calc(20px + 3.590625vw);
+    font-family: 'Belanosima', sans-serif;
+}
+.all .bar{
+    margin-top: 10px;
+}
+.contan{
+    height: 50vh;
+}
+.sub-heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.sub-heading .inactive{ 
+    color: white;
+    text-decoration: none;
+    margin: 0px 8px;
+    font-size: 17px;
+}
+.active{
+    color: var(--dark-color);
+    text-decoration: none;
+    margin: 0px 8px;
+    font-size: 17px;
+}
